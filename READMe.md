@@ -29,5 +29,7 @@ Each scenario includes at least 6 sequences with different camera speeds and lig
 | log_id.txt           | no                   | yes                         | Event camera information                                                                                |
 | log.bias             | no                   | yes                         | Event camera bias                                                                                       |
 
+### [Raw Dataset Link](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EuotzBGRLk1AhfOe9LlZuSQBVtis9MH86vz1DQgt8hzQPA?e=8bzYeL)
+
 
 
