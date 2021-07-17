@@ -1,0 +1,2 @@
+example_folder/point_cloud_f.txt
+example_folder/03_pose_rotm.txt
