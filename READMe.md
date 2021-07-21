@@ -1,7 +1,7 @@
 # For academic use only.
 
 
-## Stereo Hybrid Event-Frame Camera Dataset for 3D Perception
+## Stereo Hybrid Event-Frame (SHEF) Cameras for 3D Perception
 
 ⋅⋅* Ziwei Wang, Yonhon Ng, Liyuan Pan, Zheyu Zhuang and Robert Mahony
 
