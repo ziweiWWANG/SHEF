@@ -24,7 +24,7 @@ Each scenario includes at least 6 sequences with different camera speeds and lig
 |                      | From FLIR RGB camera | From Prophesee event camera | Description                                                                                             |
 |----------------------|----------------------|-----------------------------|---------------------------------------------------------------------------------------------------------|
 | raw intensity images | yes                  | no                          | Raw intensity images from FLIR RGB camera                                                               |
-| log.raw              | no                   | yes                         | Raw event data, includes event x, y, ts, p, use tools in Notes to convert to .dat or .csv                                                                  |
+| log.raw              | no                   | yes                         | Raw event data, includes event x, y, ts, p, external FLIR camera trigger. Use tools to convert to .dat                                                           |
 | log_trigger.dat      | yes                  | yes                         | We synchronise the two cameras by sending a trigger signal from the FLIR RGB camera to the event camera |
 | log_id.txt           | no                   | yes                         | Event camera information                                                                                |
 | log.bias             | no                   | yes                         | Event camera bias                                                                                       |
@@ -36,9 +36,17 @@ In this case, you can find all tools in /usr/share/prophesee_driver/samples or /
 
 e.g.
 
-To convert RAW files to CD and EM dat files:
+To extract event dat files from log.raw:
+./metavision_raw_to_dat -i log.raw --cd --em
 
-./metavision_raw_to_dat -i YOUR_RAW.raw --cd --em
+To extract external FLIR camera trigger dat files from log.raw:
+./metavision_raw_to_dat -i log.raw --trigger
+
+|                      | From FLIR RGB camera | From Prophesee event camera | Description                                                                                             |
+|----------------------|----------------------|-----------------------------|---------------------------------------------------------------------------------------------------------|       
+| log_td.dat        | yes                     | No                          |Event data, includes event x, y, ts, p |                                             
+| log_trigger.dat   | yes                     | yes                         |We synchronise the two cameras by sending a trigger signal from the FLIR RGB camera to the event camera. This is the external FLIR camera trigger signal file.|
+
 
 To synchronise the two cameras by using log_trigger.dat:
 1. Find the first raw image that has obvious exposure (intensity) changes.
