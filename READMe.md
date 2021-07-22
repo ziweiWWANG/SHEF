@@ -35,7 +35,9 @@ You can also install the last Prophesee software version follow the instructions
 In this case, you can find all tools in /usr/share/prophesee_driver/samples or /usr/share/metavision/sdk/driver/samples, depending on what version you are using.
 
 e.g.
-To convert RAW files to CD and EM dat files :
+
+To convert RAW files to CD and EM dat files:
+
 ./metavision_raw_to_dat -i YOUR_RAW.raw --cd --em
 
 To synchronise the two cameras by using log_trigger.dat:
