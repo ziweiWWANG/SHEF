@@ -43,6 +43,8 @@ To synchronise the two cameras by using log_trigger.dat:
 
 #### [Parameters for each sequence](https://docs.google.com/spreadsheets/d/1so2S-R-0OyHtPx6rzRnHimwNJFnQP-UNSiHOV1cqRFM/edit?usp=sharing)
 
-#### [Stereo hybrid event-frame calibration data link](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EhBpyboR6vFMpVS542vnepMBDW5pCX2Ydu6-K2cx4IAO4w?e=lahziB)
+#### [Stereo hybrid event-frame calibration data](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EhBpyboR6vFMpVS542vnepMBDW5pCX2Ydu6-K2cx4IAO4w?e=lahziB)
 
+#### [Point cloud](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/Egwt0pIEaJ9AqrHuImMSupgBJ7WmxOEFV5KCtJreVsoH_g?e=RKmKOp)
 
+#### [UR5 robot arm pose](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/ErQDYXOfZ5FKoziHVxyqusgBN4JwASJUh8ue_Hsah9Aclw?e=kl2YHt)
