@@ -3,9 +3,9 @@
 
 ## Stereo Hybrid Event-Frame (SHEF) Cameras for 3D Perception
 
-⋅⋅* Ziwei Wang, Yonhon Ng, Liyuan Pan, Zheyu Zhuang and Robert Mahony
+Ziwei Wang, Yonhon Ng, Liyuan Pan, Zheyu Zhuang and Robert Mahony
 
-⋅⋅* The paper was accepted by the 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021) in Prague, Czech Republic.
+The paper was accepted by the 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021) in Prague, Czech Republic.
    
 ## Publications 
 Coming soon
