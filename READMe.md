@@ -24,7 +24,7 @@ Each scenario includes at least 6 sequences with different camera speeds and lig
 |                      | From FLIR RGB camera | From Prophesee event camera | Description                                                                                             |
 |----------------------|----------------------|-----------------------------|---------------------------------------------------------------------------------------------------------|
 | raw intensity images | yes                  | no                          | Raw intensity images from FLIR RGB camera                                                               |
-| log.raw              | no                   | yes                         | Raw event data, includes event x, y, ts, p, external FLIR camera trigger. Use [Prophesee_tools] (https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EgqGLGx573ZOnbobjQZMT1YBO-7eSgtCtZivu72CxdMz8Q?e=Vf6goH) to convert to .dat                                                           |
+| log.raw              | no                   | yes                         | Raw event data, includes event x, y, ts, p, external FLIR camera trigger. Use [Prophesee_tools](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EgqGLGx573ZOnbobjQZMT1YBO-7eSgtCtZivu72CxdMz8Q?e=Vf6goH) to convert to .dat                                                           |
 | log_id.txt           | no                   | yes                         | Event camera information                                                                                |
 | log.bias             | no                   | yes                         | Event camera bias                                                                                       |
 
