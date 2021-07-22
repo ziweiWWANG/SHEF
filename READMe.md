@@ -24,7 +24,7 @@ Each scenario includes at least 6 sequences with different camera speeds and lig
 |                      | From FLIR RGB camera | From Prophesee event camera | Description                                                                                             |
 |----------------------|----------------------|-----------------------------|---------------------------------------------------------------------------------------------------------|
 | raw intensity images | yes                  | no                          | Raw intensity images from FLIR RGB camera                                                               |
-| log.raw              | no                   | yes                         | Event data, includes event x, y, ts, p                                                                  |
+| log.raw              | no                   | yes                         | Raw event data, includes event x, y, ts, p, use tools in Notes to convert to .dat or .csv                                                                  |
 | log_trigger.dat      | yes                  | yes                         | We synchronise the two cameras by sending a trigger signal from the FLIR RGB camera to the event camera |
 | log_id.txt           | no                   | yes                         | Event camera information                                                                                |
 | log.bias             | no                   | yes                         | Event camera bias                                                                                       |
