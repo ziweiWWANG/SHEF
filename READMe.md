@@ -13,9 +13,6 @@ Coming soon
 ## IROS-video
 Coming soon
 
-## Notes 
-1. If you have any questions regarding this code and the corresponding results, please contact ziwei.wang1@anu.edu.au
-
 ## Data 
 ### Events Image Raw Data:
 Three scenarios: picnic, complex boxes, and simple boxes.
@@ -61,3 +58,6 @@ To synchronise the two cameras by using log_trigger.dat:
 #### [Point cloud](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/Egwt0pIEaJ9AqrHuImMSupgBJ7WmxOEFV5KCtJreVsoH_g?e=RKmKOp)
 
 #### [UR5 robot arm pose](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/ErQDYXOfZ5FKoziHVxyqusgBN4JwASJUh8ue_Hsah9Aclw?e=GfjUQa)
+
+## Notes 
+1. If you have any questions regarding this code and the corresponding results, please contact ziwei.wang1@anu.edu.au
