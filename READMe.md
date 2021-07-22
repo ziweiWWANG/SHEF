@@ -24,13 +24,12 @@ Each scenario includes at least 6 sequences with different camera speeds and lig
 |                      | From FLIR RGB camera | From Prophesee event camera | Description                                                                                             |
 |----------------------|----------------------|-----------------------------|---------------------------------------------------------------------------------------------------------|
 | raw intensity images | yes                  | no                          | Raw intensity images from FLIR RGB camera                                                               |
-| log.raw              | no                   | yes                         | Raw event data, includes event x, y, ts, p, external FLIR camera trigger. Use tools to convert to .dat                                                           |
-| log_trigger.dat      | yes                  | yes                         | We synchronise the two cameras by sending a trigger signal from the FLIR RGB camera to the event camera |
+| log.raw              | no                   | yes                         | Raw event data, includes event x, y, ts, p, external FLIR camera trigger. Use [Prophesee_tools] (https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EgqGLGx573ZOnbobjQZMT1YBO-7eSgtCtZivu72CxdMz8Q?e=Vf6goH) to convert to .dat                                                           |
 | log_id.txt           | no                   | yes                         | Event camera information                                                                                |
 | log.bias             | no                   | yes                         | Event camera bias                                                                                       |
 
 #### Notes: 
-Events are compressed in raw format. To convert raw data to .dat or .csv format, use the Prophesee tools in [Prophesee_tools link](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EgqGLGx573ZOnbobjQZMT1YBO-7eSgtCtZivu72CxdMz8Q?e=hceb06)
+Events are compressed in raw format. To convert raw data to .dat or .csv format, use the Prophesee tools in [Prophesee_tools](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EgqGLGx573ZOnbobjQZMT1YBO-7eSgtCtZivu72CxdMz8Q?e=hceb06)
 You can also install the last Prophesee software version follow the instructions on the [website](https://support.prophesee.ai/portal/en/kb/articles/linux-software#Prerequisites)
 In this case, you can find all tools in /usr/share/prophesee_driver/samples or /usr/share/metavision/sdk/driver/samples, depending on what version you are using.
 
