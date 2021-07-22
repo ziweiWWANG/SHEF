@@ -39,7 +39,7 @@ To synchronise the two cameras by using log_trigger.dat:
 2. Find its corresponding exposure change in log_trigger.dat. 
 3. Compute image timestamp offset.
 
-#### [Raw Dataset](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/Ep_N2D67rfZDv9Ps9D7LOjMBpU7mIChHIQBLkW1dKbcnug?e=q2tGXu)
+#### [Raw dataset](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/Ep_N2D67rfZDv9Ps9D7LOjMBpU7mIChHIQBLkW1dKbcnug?e=q2tGXu)
 
 #### [Parameters for each sequence](https://docs.google.com/spreadsheets/d/1so2S-R-0OyHtPx6rzRnHimwNJFnQP-UNSiHOV1cqRFM/edit?usp=sharing)
 
