@@ -34,6 +34,10 @@ Events are compressed in raw format. To convert raw data to .dat or .csv format,
 You can also install the last Prophesee software version follow the instructions on the [website](https://support.prophesee.ai/portal/en/kb/articles/linux-software#Prerequisites)
 In this case, you can find all tools in /usr/share/prophesee_driver/samples or /usr/share/metavision/sdk/driver/samples, depending on what version you are using.
 
+e.g.
+To convert RAW files to CD and EM dat files :
+./metavision_raw_to_dat -i YOUR_RAW.raw --cd --em
+
 To synchronise the two cameras by using log_trigger.dat:
 1. Find the first raw image that has obvious exposure (intensity) changes.
 2. Find its corresponding exposure change in log_trigger.dat. 
