@@ -11,7 +11,7 @@ The paper was accepted by the 2021 IEEE/RSJ International Conference on Intellig
 Coming soon
 
 ## IROS-video
-Coming soon
+[https://youtu.be/KgfTxWqu4kY](https://youtu.be/KgfTxWqu4kY)
 
 ## Data 
 ### Events Image Raw Data:
