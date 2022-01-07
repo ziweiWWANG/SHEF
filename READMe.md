@@ -10,7 +10,6 @@ The paper was accepted by the 2021 IEEE/RSJ International Conference on Intellig
 ## Publications 
 [https://ieeexplore.ieee.org/abstract/document/9636312](https://ieeexplore.ieee.org/abstract/document/9636312)
 
-[ArXiv](https://arxiv.org/abs/2110.04988)
 <pre>
 @inproceedings{wang2021stereo,
   title={Stereo Hybrid Event-Frame (SHEF) Cameras for 3D Perception},
@@ -20,6 +19,9 @@ The paper was accepted by the 2021 IEEE/RSJ International Conference on Intellig
   organization={IEEE}
 }
 </pre>
+
+ArXiv version: 
+[https://arxiv.org/abs/2110.04988](https://arxiv.org/abs/2110.04988)
 
 ## IROS-video
 [https://www.youtube.com/watch?v=Azu7rJSPGNc](https://www.youtube.com/watch?v=Azu7rJSPGNc)
