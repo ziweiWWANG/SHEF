@@ -8,8 +8,9 @@ Ziwei Wang, Liyuan Pan, Yonhon Ng, Zheyu Zhuang and Robert Mahony
 The paper was accepted by the 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021) in Prague, Czech Republic.
    
 ## Publications 
-[PDF](https://arxiv.org/abs/2110.04988)
+[https://ieeexplore.ieee.org/abstract/document/9636312](https://ieeexplore.ieee.org/abstract/document/9636312)
 
+[ArXiv](https://arxiv.org/abs/2110.04988)
 <pre>
 @inproceedings{wang2021stereo,
   title={Stereo Hybrid Event-Frame (SHEF) Cameras for 3D Perception},
