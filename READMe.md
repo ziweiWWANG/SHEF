@@ -39,12 +39,16 @@ Each scenario includes at least 6 sequences with different camera speeds and lig
 | log_td.dat        | no                      | yes                         |Event data, includes event x, y, ts, p |                                             
 
 #### Notes: 
-Events are decompressed from .raw to .dat format. To convert raw data to .dat or .csv format, we used the Prophesee tools in [Prophesee_tools](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EgqGLGx573ZOnbobjQZMT1YBO-7eSgtCtZivu72CxdMz8Q?e=hceb06)
+1. Events are decompressed from .raw to .dat format. To convert raw data to .dat or .csv format, we used the Prophesee tools in [Prophesee_tools](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EgqGLGx573ZOnbobjQZMT1YBO-7eSgtCtZivu72CxdMz8Q?e=hceb06)
 You can also install the last Prophesee software version follow the instructions on the [website](https://support.prophesee.ai/portal/en/kb/articles/linux-software#Prerequisites)
 If you need, you can find all tools in /usr/share/prophesee_driver/samples or /usr/share/metavision/sdk/driver/samples, depending on what version you are using.
 
+2. You can use the provided code to generate depth groud truth from camera position and point cloud. Or you can download the example depth ground truth images here [Processed depth ground truth](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EqtwBFaIBp9FhJRtIvqK6scB0esgEt9wUZoQ5u3Oa82DBA?e=NAZeoe).
+
+
 
 #### [Processed stereo event-frame dataset](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/Ej1WwLyZqAFFtf-QZxvE8tYBkJkL-IYwUyzE1NDFpsI4aA?e=7qxuuW)
+
 
 #### [Parameters for each sequence](https://docs.google.com/spreadsheets/d/1so2S-R-0OyHtPx6rzRnHimwNJFnQP-UNSiHOV1cqRFM/edit?usp=sharing)
 
