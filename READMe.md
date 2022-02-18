@@ -43,7 +43,7 @@ Each scenario includes at least 6 sequences with different camera speeds and lig
 You can also install the last Prophesee software version follow the instructions on the [website](https://support.prophesee.ai/portal/en/kb/articles/linux-software#Prerequisites)
 If you need, you can find all tools in /usr/share/prophesee_driver/samples or /usr/share/metavision/sdk/driver/samples, depending on what version you are using.
 
-2. You can use the provided code to generate depth groud truth from camera position and point cloud. Or you can download the example depth ground truth images here [Processed depth ground truth](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EqtwBFaIBp9FhJRtIvqK6scB0esgEt9wUZoQ5u3Oa82DBA?e=NAZeoe).
+2. You can use the provided code to generate depth groud truth from camera position and point cloud. Or you can download the example depth ground truth images from [[Processed Depth Ground Truth Examples]](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EqtwBFaIBp9FhJRtIvqK6scB0esgEt9wUZoQ5u3Oa82DBA?e=NAZeoe).
 
 
 
