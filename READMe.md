@@ -6,10 +6,15 @@
 Ziwei Wang, Liyuan Pan, Yonhon Ng, Zheyu Zhuang and Robert Mahony
 
 The paper was accepted by the 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021) in Prague, Czech Republic.
-   
-## Publications 
-[https://ieeexplore.ieee.org/abstract/document/9636312](https://ieeexplore.ieee.org/abstract/document/9636312)
 
+The paper is available here: [https://ieeexplore.ieee.org/abstract/document/9636312](https://ieeexplore.ieee.org/abstract/document/9636312)
+
+ArXiv version: 
+[https://arxiv.org/abs/2110.04988](https://arxiv.org/abs/2110.04988)
+
+
+## Citation 
+If you use or discuss our SHEF algorithm, or use the dataset, please cite our paper as follows:
 <pre>
 @inproceedings{wang2021stereo,
   title={Stereo Hybrid Event-Frame (SHEF) Cameras for 3D Perception},
@@ -20,8 +25,6 @@ The paper was accepted by the 2021 IEEE/RSJ International Conference on Intellig
 }
 </pre>
 
-ArXiv version: 
-[https://arxiv.org/abs/2110.04988](https://arxiv.org/abs/2110.04988)
 
 ## IROS-video
 [https://www.youtube.com/watch?v=Azu7rJSPGNc](https://www.youtube.com/watch?v=Azu7rJSPGNc)
