@@ -1,7 +1,8 @@
-# For academic use only.
+# Stereo Hybrid Event-Frame (SHEF) Cameras for 3D Perception
+## For academic use only.
 
 
-## Stereo Hybrid Event-Frame (SHEF) Cameras for 3D Perception
+
 
 Ziwei Wang, Liyuan Pan, Yonhon Ng, Zheyu Zhuang and Robert Mahony
 
