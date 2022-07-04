@@ -28,7 +28,7 @@ If you use or discuss our SHEF algorithm, or use the dataset, please cite our pa
 
 
 ## IROS-video
-[https://www.youtube.com/watch?v=Azu7rJSPGNc](https://www.youtube.com/watch?v=Azu7rJSPGNc)
+[![Stereo Hybrid Event-Frame (SHEF) Cameras for 3D Perception](https://github.com/ziweiWWANG/SHEF/tree/master/figures/video_thumbnail.png)](https://www.youtube.com/watch?v=Azu7rJSPGNc)
 
 ## Data 
 ### Events Image Raw Data:
