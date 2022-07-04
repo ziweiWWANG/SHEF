@@ -1,4 +1,10 @@
 # Stereo Hybrid Event-Frame (SHEF) Cameras for 3D Perception
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=Azu7rJSPGNc">
+    <img src="figures/video_thumbnail.png" alt="Stereo Hybrid Event-Frame (SHEF) Cameras for 3D Perception" width="500"/>
+  </a>
+</p>
+
 ## For academic use only.
 
 
@@ -27,8 +33,6 @@ If you use or discuss our SHEF algorithm, or use the dataset, please cite our pa
 </pre>
 
 
-## IROS-video
-[![Stereo Hybrid Event-Frame (SHEF) Cameras for 3D Perception](https://github.com/ziweiWWANG/SHEF/tree/master/figures/video_thumbnail.png)](https://www.youtube.com/watch?v=Azu7rJSPGNc)
 
 ## Data 
 ### Events Image Raw Data:
