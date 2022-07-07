@@ -55,9 +55,9 @@ Each scenario includes at least 6 sequences with different camera speeds and lig
 
 |                      | From FLIR RGB camera | From Prophesee event camera | Description                                                                                             |
 |----------------------|----------------------|-----------------------------|---------------------------------------------------------------------------------------------------------| 
-| Intensity images  | yes                     | no                          |Synchronised intensity images from FLIR RGB camera |
-| images_ts.txt     | no                      | yes                         |Timestamps of the ynchronised intensity images. We synchronise the two cameras by sending a trigger signal from the FLIR RGB camera to the event camera. |
-| log_td.dat        | no                      | yes                         |Event data, includes event x, y, ts, p |                                             
+| `Intensity images`  | yes                     | no                          |Synchronised intensity images from FLIR RGB camera |
+| `images_ts.txt`     | no                      | yes                         |Timestamps of the ynchronised intensity images. We synchronise the two cameras by sending a trigger signal from the FLIR RGB camera to the event camera. |
+| `log_td.dat`        | no                      | yes                         |Event data, includes event x, y, ts, p |                                             
 
 #### Notes: 
 1. Events are decompressed from `.raw` to `.dat` format. To convert raw data to `.dat` or `.csv` format, we used the Prophesee tools in [Prophesee_tools](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EgqGLGx573ZOnbobjQZMT1YBO-7eSgtCtZivu72CxdMz8Q?e=hceb06)
