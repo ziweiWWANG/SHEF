@@ -68,4 +68,4 @@ If you need, you can find all tools in `usr/share/prophesee_driver/samples/` or 
 
 
 ## Notes 
-1. Should you have any questions regarding this code and the corresponding results, please contact ziwei.wang1@anu.edu.au
+1. Should you have any questions regarding this paper or datasets, please contact ziwei.wang1@anu.edu.au
