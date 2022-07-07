@@ -14,8 +14,8 @@ Ziwei Wang, Liyuan Pan, Yonhon Ng, Zheyu Zhuang and Robert Mahony
 
 The paper was accepted by the 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021) in Prague, Czech Republic.
 
-[Paper](https://ieeexplore.ieee.org/abstract/document/9636312](https://ieeexplore.ieee.org/abstract/document/9636312)
-[ArXiv](https://arxiv.org/abs/2110.04988)
+[[Paper](https://ieeexplore.ieee.org/abstract/document/9636312)]
+[[ArXiv](https://arxiv.org/abs/2110.04988)]
 
 
 ## Citation 
@@ -53,8 +53,8 @@ If you need, you can find all tools in `usr/share/prophesee_driver/samples/` or 
 
 
 ### Download
-#### [processed stereo event-frame dataset](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/Ej1WwLyZqAFFtf-QZxvE8tYBkJkL-IYwUyzE1NDFpsI4aA?e=7qxuuW)
 
+#### [processed stereo event-frame dataset](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/Ej1WwLyZqAFFtf-QZxvE8tYBkJkL-IYwUyzE1NDFpsI4aA?e=7qxuuW)
 
 #### [parameters for each sequence](https://docs.google.com/spreadsheets/d/1so2S-R-0OyHtPx6rzRnHimwNJFnQP-UNSiHOV1cqRFM/edit?usp=sharing)
 
@@ -64,5 +64,6 @@ If you need, you can find all tools in `usr/share/prophesee_driver/samples/` or 
 
 #### [UR5 robot arm pose](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/ErQDYXOfZ5FKoziHVxyqusgBN4JwASJUh8ue_Hsah9Aclw?e=GfjUQa)
 
+#### [Processed Depth Ground Truth Examples](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EqtwBFaIBp9FhJRtIvqK6scB0esgEt9wUZoQ5u3Oa82DBA?e=NAZeoe)
 ## Notes 
 1. Should you have any questions regarding this code and the corresponding results, please contact ziwei.wang1@anu.edu.au
