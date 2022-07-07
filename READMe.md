@@ -34,7 +34,7 @@ If you use or discuss our SHEF algorithm, or use the dataset, please cite our pa
 
 ## [Download Data](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EuotzBGRLk1AhfOe9LlZuSQBVtis9MH86vz1DQgt8hzQPA?e=jhRg1h) 
 
-### [stereo_event_frame_raw_data] (https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/Ej1WwLyZqAFFtf-QZxvE8tYBkJkL-IYwUyzE1NDFpsI4aA?e=0vZNak)
+### [stereo_event_frame_raw_data](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/Ej1WwLyZqAFFtf-QZxvE8tYBkJkL-IYwUyzE1NDFpsI4aA?e=0vZNak)
 
 Three scenarios: picnic, complex boxes, and simple boxes.
 Each scenario includes at least 6 sequences with different camera speeds and lighting conditions.
@@ -59,9 +59,6 @@ Each scenario includes at least 6 sequences with different camera speeds and lig
 
 
 ### [UR5 robot arm pose](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/ErQDYXOfZ5FKoziHVxyqusgBN4JwASJUh8ue_Hsah9Aclw?e=IREwdD)
-
-
-### Events Image Raw Data:
 
 
 ## Notes: 
