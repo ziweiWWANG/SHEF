@@ -5,9 +5,6 @@
   </a>
 </p>
 
-## For academic use only.
-
-
 
 
 Ziwei Wang, Liyuan Pan, Yonhon Ng, Zheyu Zhuang and Robert Mahony
@@ -68,4 +65,4 @@ If you need, you can find all tools in `usr/share/prophesee_driver/samples/` or 
 
 2. You can use the provided code to generate depth groud truth from camera position and point cloud. Or you can download the example depth ground truth images from [processed depth ground truth examples](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EqtwBFaIBp9FhJRtIvqK6scB0esgEt9wUZoQ5u3Oa82DBA?e=WRvCSX)
 
-3. Should you have any questions regarding this paper or datasets, please contact ziwei.wang1@anu.edu.au
+3. For academic use only. Should you have any questions regarding this paper or datasets, please contact ziwei.wang1@anu.edu.au
