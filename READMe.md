@@ -63,7 +63,7 @@ It will load event-frame pairs from [baseline_disparity_code/data/event_edge](ht
 
 
 ## Evaluation
-Enter folder [baseline_disparity_code/include](https://github.com/ziweiWWANG/SHEF/baseline_disparity_code/include) and run [evaluation.m](https://github.com/ziweiWWANG/SHEF/baseline_disparity_code/include/evaluation.m).
+Enter folder [baseline_disparity_code/include](https://github.com/ziweiWWANG/SHEF/tree/master/baseline_disparity_code/include) and run [evaluation.m](https://github.com/ziweiWWANG/SHEF/tree/master/baseline_disparity_code/include/evaluation.m).
 It will load estimated depth from [baseline_disparity_code/data/Dp](https://github.com/ziweiWWANG/SHEF/baseline_disparity_code/include/data/Dp) and ground truth depth from [baseline_disparity_code/data/gt](https://github.com/ziweiWWANG/SHEF/baseline_disparity_code/include/data/gt), and display the average `bad-p`, `RMSE` and `inlier ratio` performance.
 
 ## Notes: 
