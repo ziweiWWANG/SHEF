@@ -58,13 +58,13 @@ Each scenario includes at least 6 sequences with different camera speeds and lig
 ### [UR5 robot arm pose](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/ErQDYXOfZ5FKoziHVxyqusgBN4JwASJUh8ue_Hsah9Aclw?e=IREwdD)
 
 ## Run Our Baseline Disparity Algorithm
-Run [run_disparity.m](https://github.com/ziweiWWANG/SHEF/baseline_disparity_code/run_disparity.m).
-It will load event-frame pairs from [baseline_disparity_code/data/event_edge](https://github.com/ziweiWWANG/SHEF/baseline_disparity_code/include/data/event_edge) and [baseline_disparity_code/data/frame_edge](https://github.com/ziweiWWANG/SHEF/baseline_disparity_code/include/data/frame_edge).
+Run [run_disparity.m](https://github.com/ziweiWWANG/SHEF/tree/master/baseline_disparity_code/run_disparity.m).
+It will load event-frame pairs from [baseline_disparity_code/data/event_edge](https://github.com/ziweiWWANG/SHEF/tree/master/baseline_disparity_code/include/data/event_edge) and [baseline_disparity_code/data/frame_edge](https://github.com/ziweiWWANG/SHEF/tree/master/baseline_disparity_code/include/data/frame_edge).
 
 
 ## Evaluation
 Enter folder [baseline_disparity_code/include](https://github.com/ziweiWWANG/SHEF/tree/master/baseline_disparity_code/include) and run [evaluation.m](https://github.com/ziweiWWANG/SHEF/tree/master/baseline_disparity_code/include/evaluation.m).
-It will load estimated depth from [baseline_disparity_code/data/Dp](https://github.com/ziweiWWANG/SHEF/baseline_disparity_code/include/data/Dp) and ground truth depth from [baseline_disparity_code/data/gt](https://github.com/ziweiWWANG/SHEF/baseline_disparity_code/include/data/gt), and display the average `bad-p`, `RMSE` and `inlier ratio` performance.
+It will load estimated depth from [baseline_disparity_code/data/Dp](https://github.com/ziweiWWANG/SHEF/tree/master/baseline_disparity_code/include/data/Dp) and ground truth depth from [baseline_disparity_code/data/gt](https://github.com/ziweiWWANG/SHEF/tree/master/baseline_disparity_code/include/data/gt), and display the average `bad-p`, `RMSE` and `inlier ratio` performance.
 
 ## Notes: 
 1. Events are decompressed from `.raw` to `.dat` format. To convert raw data to `.dat` or `.csv` format, we used the Prophesee tools in [Prophesee_tools](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EgqGLGx573ZOnbobjQZMT1YBO-7eSgtCtZivu72CxdMz8Q?e=hceb06)
