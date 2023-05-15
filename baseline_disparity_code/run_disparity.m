@@ -10,6 +10,10 @@ addpath('./include/export_fig')
 addpath('./include')
 start_id = 1;
 end_id = 147;
+
+if ~exist([folderName '/Dp'], 'dir')
+   mkdir([folderName '/Dp'])
+end
 for imgID = start_id:end_id
     raw_add = sprintf([folderName '/frame_edge/%d.png'],imgID);
     hf_add = sprintf([folderName '/event_edge/%d.png'],imgID);
