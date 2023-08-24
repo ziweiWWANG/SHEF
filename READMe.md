@@ -72,4 +72,5 @@ If you need, you can find all tools in `usr/share/prophesee_driver/samples/` or 
 
 2. You can use the provided code to generate depth groud truth from camera position and point cloud. Or you can download the example depth ground truth images from [./event_frame_depth_data/depth_ground_truth](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EuotzBGRLk1AhfOe9LlZuSQBVtis9MH86vz1DQgt8hzQPA?e=jhRg1h).
 
-3. For academic use only. Should you have any questions regarding this paper or datasets, please contact [ziwei.wang1@anu.edu.au](ziwei.wang1@anu.edu.au)
+3. For academic use only. Should you have any questions regarding this paper or datasets, please contact [ziwei.wang1@anu.edu.au](ziwei.wang1@anu.edu.au).
+4. The Australian National University's policy in OneDrive requires the dataset link to expire in 30 days. Please don't hesitate to contact the author or request in GitHub if you find the link is expired.
