@@ -29,11 +29,11 @@ If you use or discuss our SHEF algorithm, or use the dataset, please cite our pa
 
 
 
-## [Download Data](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EuotzBGRLk1AhfOe9LlZuSQBVtis9MH86vz1DQgt8hzQPA?e=jhRg1h) 
+## [Clikck Here to Download Data](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EuotzBGRLk1AhfOe9LlZuSQBVtis9MH86vz1DQgt8hzQPA?e=jhRg1h) 
 
-### [stereo_event_frame_raw_data](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/Ej1WwLyZqAFFtf-QZxvE8tYBkJkL-IYwUyzE1NDFpsI4aA?e=0vZNak)
+### ./event_frame_depth_data/stereo_event_frame_raw_data
 
-Three scenarios: [`picnic`](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/Enz2dm5fBxlFkimada8OUnwB5QcI5SdzwTb4MmDTT1AY7g?e=9HKLyL), [`complex boxes`](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EtcIck30nRBBq9n8Ozne-WEBeAf1rM6L9ka42TnNMBO1FA?e=GqjZMd), and [`simple boxes`](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/Em7JHxte1uFOpzKPeuCUyW0BmFdb_adsgNOBVHdxxN4JQg?e=fchosA).
+Three scenarios: `picnic`, `complex boxes`, and `simple boxes`.
 Each scenario includes at least 6 sequences with different camera speeds and lighting conditions.
 
 
@@ -42,20 +42,19 @@ Each scenario includes at least 6 sequences with different camera speeds and lig
 | `intensity_images`  | yes                     | no                          |Synchronised intensity images from FLIR RGB camera |
 | `images_ts.txt`     | no                      | yes                         |Timestamps of the ynchronised intensity images. We synchronise the two cameras by sending a trigger signal from the FLIR RGB camera to the event camera. |
 | `log_td.dat`        | no                      | yes                         |Event data, includes event x, y, ts, p |                                             
+#### processed depth ground truth examples
+./event_frame_depth_data/depth_ground_truth
 
+#### stereo hybrid event-frame calibration data
+./calibration_data/stereo_event_frame
 
-### [processed depth ground truth examples](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EqtwBFaIBp9FhJRtIvqK6scB0esgEt9wUZoQ5u3Oa82DBA?e=WRvCSX)
+#### point cloud
+./calibration_data/point_cloud
 
+#### UR5 robot arm pose
+./calibration_data/ur5_pose
 
-### [parameters for each sequence](https://docs.google.com/spreadsheets/d/1so2S-R-0OyHtPx6rzRnHimwNJFnQP-UNSiHOV1cqRFM/edit?usp=sharing)
-
-
-### [stereo hybrid event-frame calibration data](https://anu365-my.sharepoint.com/:u:/g/personal/u6456661_anu_edu_au/EYYaSawiB6hPl2HC03Ig4RgBOq4RsrNylGyl2SdoYqdMTw?e=nAwUdt)
-
-### [point cloud](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/Egwt0pIEaJ9AqrHuImMSupgBJ7WmxOEFV5KCtJreVsoH_g?e=pryE01)
-
-
-### [UR5 robot arm pose](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/ErQDYXOfZ5FKoziHVxyqusgBN4JwASJUh8ue_Hsah9Aclw?e=IREwdD)
+### [Click here to find the parameters for each sequence](https://docs.google.com/spreadsheets/d/1so2S-R-0OyHtPx6rzRnHimwNJFnQP-UNSiHOV1cqRFM/edit?usp=sharing)
 
 ## Run Our Baseline Disparity Algorithm
 Run [run_disparity.m](https://github.com/ziweiWWANG/SHEF/tree/master/baseline_disparity_code/run_disparity.m).
@@ -67,10 +66,10 @@ Enter folder [baseline_disparity_code/include](https://github.com/ziweiWWANG/SHE
 It will load estimated depth from [baseline_disparity_code/data/Dp](https://github.com/ziweiWWANG/SHEF/tree/master/baseline_disparity_code/data/Dp) and ground truth depth from [baseline_disparity_code/data/gt](https://github.com/ziweiWWANG/SHEF/tree/master/baseline_disparity_code/data/gt), and display the average `bad-p`, `RMSE` and `inlier ratio` performance.
 
 ## Notes: 
-1. Events are decompressed from `.raw` to `.dat` format. To convert raw data to `.dat` or `.csv` format, we used the Prophesee tools in [Prophesee_tools](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EgqGLGx573ZOnbobjQZMT1YBO-7eSgtCtZivu72CxdMz8Q?e=hceb06)
-You can also install the last Prophesee software version follow the instructions on the [website](https://support.prophesee.ai/portal/en/kb/articles/linux-software#Prerequisites)
+1. Events are decompressed from `.raw` to `.dat` format. To convert raw data to `.dat` or `.csv` format, we used the Prophesee tools in [Prophesee_tools](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EuotzBGRLk1AhfOe9LlZuSQBVtis9MH86vz1DQgt8hzQPA?e=jhRg1h)
+You can also install the last Prophesee software version follow the instructions on the [website](https://www.prophesee.ai/)
 If you need, you can find all tools in `usr/share/prophesee_driver/samples/` or `usr/share/metavision/sdk/driver/samples/`, depending on what version you are using.
 
-2. You can use the provided code to generate depth groud truth from camera position and point cloud. Or you can download the example depth ground truth images from [processed depth ground truth examples](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EqtwBFaIBp9FhJRtIvqK6scB0esgEt9wUZoQ5u3Oa82DBA?e=WRvCSX).
+2. You can use the provided code to generate depth groud truth from camera position and point cloud. Or you can download the example depth ground truth images from [./event_frame_depth_data/depth_ground_truth](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EuotzBGRLk1AhfOe9LlZuSQBVtis9MH86vz1DQgt8hzQPA?e=jhRg1h).
 
 3. For academic use only. Should you have any questions regarding this paper or datasets, please contact [ziwei.wang1@anu.edu.au](ziwei.wang1@anu.edu.au)
