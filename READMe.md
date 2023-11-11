@@ -19,9 +19,10 @@ The paper was accepted by the 2021 IEEE/RSJ International Conference on Intellig
 If you use or discuss our SHEF algorithm, or use the dataset, please cite our paper as follows:
 <pre>
 @inproceedings{wang2021stereo,
-  title={Stereo Hybrid Event-Frame (SHEF) Cameras for 3D Perception},
+  title={Stereo hybrid event-frame (shef) cameras for 3d perception},
   author={Wang, Ziwei and Pan, Liyuan and Ng, Yonhon and Zhuang, Zheyu and Mahony, Robert},
   booktitle={2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={9758--9764},
   year={2021},
   organization={IEEE}
 }
