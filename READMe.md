@@ -30,7 +30,9 @@ If you use or discuss our SHEF algorithm, or use the dataset, please cite our pa
 
 
 
-## [Clikck Here to Download Data](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EuotzBGRLk1AhfOe9LlZuSQBVtis9MH86vz1DQgt8hzQPA?e=jhRg1h) 
+## [Link to Download Data](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EuotzBGRLk1AhfOe9LlZuSQBVtis9MH86vz1DQgt8hzQPA?e=jhRg1h) 
+
+**Per ANU OneDrive policy, dataset access must be shared directly via email. Please reach out to the author or open a GitHub request to get access.**
 
 ### ./event_frame_depth_data/stereo_event_frame_raw_data
 
@@ -73,5 +75,4 @@ If you need, you can find all tools in `usr/share/prophesee_driver/samples/` or 
 
 2. You can use the provided code to generate depth groud truth from camera position and point cloud. Or you can download the example depth ground truth images from [./event_frame_depth_data/depth_ground_truth](https://anu365-my.sharepoint.com/:f:/g/personal/u6456661_anu_edu_au/EuotzBGRLk1AhfOe9LlZuSQBVtis9MH86vz1DQgt8hzQPA?e=jhRg1h).
 
-3. For academic use only. Should you have any questions regarding this paper or datasets, please contact [ziwei.wang1@anu.edu.au](ziwei.wang1@anu.edu.au).
-4. **The Australian National University's policy on OneDrive requires the dataset link to expire in 30 days. If the link is not renewed in time, don't hesitate to get in touch with the author or make a request on GitHub.**
+3. For academic use only. If you have any questions regarding this paper or datasets, please contact [ziwei.wang1@anu.edu.au](ziwei.wang1@anu.edu.au).
